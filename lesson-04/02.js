@@ -21,13 +21,13 @@
 function findUniqueElements(array) {
 	let newArray = []
 	for (let i = 0; i < array.length; i++) {
-		let isDuplicated = false
+		let isDuplicate = false
 		for (let j = 0; j < newArray.length; j++) {
 			if (newArray[j] === array[i]) {
-				isDuplicated = true
+				isDuplicate = true
 				break
 			}
-	   } if (!isDuplicated) {
+	   } if (!isDuplicate) {
 	   	newArray.push(array[i])
 	   }
 	}
