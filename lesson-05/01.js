@@ -20,7 +20,6 @@ const game = {
   },
   addResource() {}
 }
-
 function addResource (resource, amount) {
 
 }
