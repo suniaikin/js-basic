@@ -22,4 +22,6 @@ const game = {
   }
 }
 function addResource (resource, amount) {
+
+  п
 }
